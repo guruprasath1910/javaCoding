@@ -1,0 +1,7 @@
+class hello{
+    public static void main(String args[])
+    {
+        double container = 10.09;
+        System.out.print(container);
+    }
+}
