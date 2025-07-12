@@ -1,0 +1,12 @@
+class hello{
+    public static void main(String args[])
+    {
+        int container = 10;
+        int container2 = 20;
+        System.out.println(container + container2);
+        System.out.println(container - container2);
+        System.out.println(container * container2);
+        System.out.println(container / container2);
+        
+    }
+}
