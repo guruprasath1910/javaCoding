@@ -1,0 +1,19 @@
+import java.lang.System;
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        scan.nextLine();
+        int b = scan.nextInt();
+        scan.nextLine();
+        int c = scan.nextInt();
+        scan.nextLine();
+        int d = a*b*c;
+        int e = a+b+c;
+        int output = d/e;
+        System.out.print("output is "+ output);
+    }
+}
