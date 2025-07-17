@@ -1,4 +1,4 @@
-class hello{
+public class Main{
     public static void main(String args[])
     {
         double container = 10.09;
