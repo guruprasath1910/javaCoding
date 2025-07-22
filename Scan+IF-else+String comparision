@@ -1,0 +1,21 @@
+import java.lang.System;
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        String RCB = scan.nextLine();
+        
+        if(RCB.equals("Win"))
+        {
+            System.out.print("Trophy");
+        }
+        else
+        {
+            System.out.print("Empty");
+        }
+        
+    }
+}
