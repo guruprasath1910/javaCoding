@@ -1,0 +1,21 @@
+import java.lang.System;
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        String meghana = scan.nextLine();
+        
+        if(meghana.equals("dead"))
+        {
+            System.out.print("surya meets ramya");
+        }
+        else
+        {
+            System.out.print("surya weds meghana");
+        }
+        
+    }
+}
