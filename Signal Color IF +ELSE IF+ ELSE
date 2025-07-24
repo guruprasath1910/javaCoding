@@ -1,0 +1,26 @@
+import java.lang.System;
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Enter the color: ");
+        Scanner scan = new Scanner(System.in);
+        String color = scan.nextLine();
+        String C1 = "red";
+        String C2 = "yellow";
+        String C3 = "green";
+        if(color.equals(C1))
+        {
+            System.out.print("Stop");
+        }
+        else if(color.equals(C2))
+        {
+            System.out.println("Get ready");
+        }
+        else
+        {
+            System.out.println("Go");
+        }
+    }
+}
