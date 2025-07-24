@@ -1,0 +1,31 @@
+import java.lang.System;
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Enter mark 01: ");
+        Scanner scan = new Scanner(System.in);
+        int mark01 = scan.nextInt();
+
+        
+        if(mark01>=35 && mark01<=60)
+        {
+            System.out.println("I can get video game");
+        }
+        else if(mark01>60 && mark01<=90)
+        {
+            System.out.println("I can get Iphone");
+        }
+        else if(mark01>90 && mark01<=100)
+        {
+            System.out.println("I can get MacBook pro");
+        }
+        else
+        {
+            System.out.println("fail");
+        }   
+
+        
+    }
+}
