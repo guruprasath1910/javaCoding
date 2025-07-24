@@ -1,0 +1,42 @@
+import java.lang.System;
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Enter the subject01 mark: ");
+        Scanner scan = new Scanner(System.in);
+        int mark1 = scan.nextInt();
+        System.out.println("Enter the subject02 mark: ");
+        Scanner scan1 = new Scanner(System.in);
+        int mark2 = scan.nextInt();
+        System.out.println("Enter the subject03 mark: ");
+        Scanner scan2 = new Scanner(System.in);
+        int mark3 = scan.nextInt();
+        System.out.println("Enter the subject04 mark: ");
+        Scanner scan3 = new Scanner(System.in);
+        int mark4 = scan.nextInt();
+        System.out.println("Enter the subject05 mark: ");
+        Scanner scan4 = new Scanner(System.in);
+        int mark5 = scan.nextInt();
+        System.out.println("Enter the subjectnum: ");
+        Scanner scan5 = new Scanner(System.in);
+        int subjectnum = scan.nextInt();
+        int Total = mark1+mark2+mark3+mark4+mark5;
+        System.out.println("Total ="+Total);
+        int Average = Total/subjectnum;
+        System.out.println("Average ="+Average);
+        if(Average<35)
+        {
+            System.out.println("Additional class required");
+            
+        }
+        else
+        {
+            System.out.println("You are good to go");
+        }
+        
+        
+    }
+}
