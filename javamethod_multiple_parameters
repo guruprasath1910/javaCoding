@@ -1,0 +1,13 @@
+public class Main
+{
+    static void method(String fname, int age)
+    {
+        System.out.println(fname+" written "+ age);
+    }
+    public static void main(String[] args)
+    {
+        method("method",5);
+        method("name",6);
+        method("age",7);
+    }
+}
